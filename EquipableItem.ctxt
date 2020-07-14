@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EquipableItem
+comment1.params=
+comment1.target=EquipableItem()
+comment2.params=newName\ newType\ newBoost
+comment2.target=EquipableItem(java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

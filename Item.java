@@ -1,6 +1,6 @@
 // Dylan Fries 2019
 // The Item Class represents a single Item with a randomly generated name
-public class Item{
+public abstract class Item{
 	
 	private String itemName;
 
