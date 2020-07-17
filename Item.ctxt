@@ -6,4 +6,6 @@ comment2.params=newName
 comment2.target=Item(java.lang.String)
 comment3.params=
 comment3.target=java.lang.String\ toString()
-numComments=4
+comment4.params=itemO
+comment4.target=boolean\ equals(java.lang.Object)
+numComments=5

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 // Dylan Fries 2019
 // The Item Class represents a single Item with a randomly generated name
 public abstract class Item{
@@ -18,5 +19,16 @@ public abstract class Item{
 	public String toString() {
 		return itemName;
 	}
-
+	
+	public boolean equals(Object itemO){
+	    boolean returnValue = false;
+	    
+	   if(itemO instanceof Item){
+	   Item newItem = (Item) itemO ;
+	   if(newItem.itemName.equals(this.itemName)){
+	       returnValue = true;
+	   }
+	   }
+	   return returnValue;
+	   }
 }

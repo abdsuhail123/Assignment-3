@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=StackableItem
+comment1.params=
+comment1.target=StackableItem()
+comment2.params=newName
+comment2.target=StackableItem(java.lang.String)
+comment3.params=newName\ itemCount\ maxItemCount
+comment3.target=StackableItem(java.lang.String,\ int,\ int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=int\ getCount()
+comment6.params=
+comment6.target=int\ getMaxCount()
+comment7.params=
+comment7.target=int\ remainingSpace()
+comment8.params=numToAdd
+comment8.target=boolean\ addItems(int)
+comment9.params=numToRemove
+comment9.target=boolean\ removeItems(int)
+numComments=10
