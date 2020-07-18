@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GameController
+comment0.text=\nThis\ class\ will\ be\ our\ main\ gameplay\ loop\ (for\ now).\ \nIt\ will\ later\ include\ a\ turn\ counter\ (turn\ based)\ and\ listen\ for\ input\ from\ the\ player.\ \nThink\ of\ simulation\ type\ games\ such\ as\ the\ Sims.\ This\ is\ a\ very\ simple\ version.\ \nWe\ will\ increase\ the\ complexity\ later.\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int\ getInput()
+comment3.params=hero\ event
+comment3.target=void\ nextEncounter(Hero,\ Encounter)
+comment4.params=finalHero
+comment4.target=void\ endGame(Hero)
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FileLoader
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=heroFile
+comment2.target=Hero\ loadHero(java.lang.String)
+comment3.params=fileName
+comment3.target=Map\ loadMap(java.lang.String)
+comment4.params=fileName
+comment4.target=Encounter[]\ loadEncounters(java.lang.String)
+comment5.params=buffer
+comment5.target=Encounter\ loadOneEncounter(java.io.BufferedReader)
+numComments=6

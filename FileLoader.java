@@ -15,12 +15,12 @@ public class FileLoader{
         System.out.println(mapTest.toString());
 
         Encounter[] encounters = loadEncounters("encountersFile.txt");
-        
+
         for(int i = 0; i < encounters.length; i++){
             System.out.println(encounters[i].fullOutput());
         }
     }
-    
+
     // Load all people contained in the Hero file as a Hero Object. 
     public static Hero loadHero(String heroFile){
         Hero ourHero = null;
@@ -31,7 +31,7 @@ public class FileLoader{
 
             // Name
             String name = scan.next();
-            
+
             // Description
             line = buffStream.readLine();
             String desc = line;
@@ -52,8 +52,7 @@ public class FileLoader{
             ourHero = new Hero(name, desc, stress, max);
             ourHero.setSkills(skillPhys, skillMental, skillSocial);
 
-
-        // Catch any kind of exception
+            // Catch any kind of exception
         }catch(Exception e){
             System.out.println("Failed Reading from file" + e.toString());
             System.out.println("Filename Given: " + heroFile);
@@ -106,7 +105,7 @@ public class FileLoader{
 
     // Load all Encounters defined in the given file. 
     public static Encounter[] loadEncounters(String fileName){
-        
+
         Encounter[] encounters = new Encounter[0];
         // Note: Hack version with no error checking
         try{
@@ -123,7 +122,7 @@ public class FileLoader{
             // load
             // Skip blank line
             buffStream.readLine();
-            
+
             // --- One encounter. --- 
             // first line of the encounter. 
             for(int i = 0; i < count; i++){
@@ -162,7 +161,7 @@ public class FileLoader{
         // Item
         scan = new Scanner(buffer.readLine());
         String itemName = scan.next();
-        Item reward = new Item(itemName);
+        EquipableItem reward = new EquipableItem(itemName,RandomGenerator.getStatToCheck(),RandomGenerator.randomRoll(1,6));
 
         // *** I am skipping a line here so that it works with the UPDATED A3 file provided
         // Your A2 version should not have this
@@ -181,10 +180,10 @@ public class FileLoader{
 
         // Skip past the blank line at the end. 
         buffer.readLine();
-        
+
         return newEncounter;
     }
-    
+
     // Then establish file connection to load People
 
 }

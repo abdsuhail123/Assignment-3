@@ -1,0 +1,104 @@
+New Hero Created!
+Dylan
+The Instructor
+ - Stress: 2/14
+ - physical: 3
+ - mental:4
+ - social:5
+[EMPTY]
+XXXXXXXXXXXX
+X.H.....2..X
+X..0.......X
+X.....1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X.H0.......X
+X.....1....X
+XXXXXXXXXXXX
+
+--------------------------------------
+Description
+ - DEBUG: physicalSkill + baseRoll 3 2
+DylanWin Statement
+Dylan found a Item [physical + 1] in the Name
+XXXXXXXXXXXX
+X.......2..X
+X..H.......X
+X.....1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X...H......X
+X.....1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X....H.....X
+X.....1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X.....H....X
+X.....1....X
+XXXXXXXXXXXX
+
+--------------------------------------
+The scary monster jumps out at you. // description
+DylanIt sees you and runs away. I guess you are more scary to it then it is to you. You find the treasure it left behind.
+Dylan found a Cash [2/3] in the Scary
+XXXXXXXXXXXX
+X.......2..X
+X..........X
+X.....H....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..........X
+X......H...X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X......H...X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X......H2..X
+X..........X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X......H2..X
+X..........X
+X..........X
+XXXXXXXXXXXX
+
+--------------------------------------
+You see a lose brick on the ground.  // description
+DylanYou pry the brick lose and find an Item // succeed. roll a random Item for now
+Dylan found a Brick [mental + 2] in the Secret
+XXXXXXXXXXXX
+X.......H..X
+X..........X
+X..........X
+XXXXXXXXXXXX
+
+--------------------------------------
+Dylan was successful!
+ === Final Output ===
+Dylan
+The Instructor
+ - Stress: 2/14
+ - physical: 3
+ - mental:4
+ - social:5
+[Item [physical + 1], Cash [2/3], Brick [mental + 2]]
+Thank you for playing. The End

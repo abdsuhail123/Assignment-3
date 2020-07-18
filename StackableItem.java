@@ -57,7 +57,7 @@ public class StackableItem extends Item {
     public boolean addItems(int numToAdd){
         int remainingSpace = remainingSpace(); // Checking space remaining
         if(numToAdd <= remainingSpace && numToAdd >= 0){ // Making sure number not invalid
-            currentItems = currentItems + numToAdd; // Add number to item number
+            currentItems -= numToAdd; // Add number to item number
             return true; // Return True
         }
         else{

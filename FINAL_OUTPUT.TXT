@@ -1,0 +1,199 @@
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X..H..1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X...H.1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X....H1....X
+XXXXXXXXXXXX
+
+--------------------------------------
+The scary monster jumps out at you. // description
+DylanThe monster overwhelms you and you make a getaway. 
+Our Hero Dylan gained 2 stress from their loss at Scary
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.....H....X
+XXXXXXXXXXXX
+
+New Hero Created!
+Dylan
+The Instructor  
+ - Stress: 2/14
+ - physical: 3
+ - mental:4
+ - social:5
+[EMPTY]
+XXXXXXXXXXXX
+X.H.....2..X
+X..0.......X
+X.....1....X
+XXXXXXXXXXXX
+
+New Hero Created!
+Dylan
+The Instructor  
+ - Stress: 2/14
+ - physical: 3
+ - mental:4
+ - social:5
+[EMPTY]
+XXXXXXXXXXXX
+X.H.....2..X
+X..0.......X
+X.....1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X.H0.......X
+X.....1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.H...1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X..H..1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X...H.1....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X....H1....X
+XXXXXXXXXXXX
+
+--------------------------------------
+The scary monster jumps out at you. // description
+DylanThe monster overwhelms you and you make a getaway. 
+Our Hero Dylan gained 2 stress from their loss at Scary
+XXXXXXXXXXXX
+X.......2..X
+X..0.......X
+X.....H....X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.......2..X
+X..0..H....X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X.....H.2..X
+X..0.......X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X......H2..X
+X..0.......X
+X..........X
+XXXXXXXXXXXX
+
+--------------------------------------
+You see a lose brick on the ground.  // description
+DylanThe brick is stuck, I cannot do anything. // fail. 
+Our Hero Dylan gained 0 stress from their loss at Secret
+XXXXXXXXXXXX
+X.......H..X
+X..0.......X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X..........X
+X..0....H..X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X..........X
+X..0...H...X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X..........X
+X..0..H....X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X..........X
+X..0.H.....X
+X..........X
+XXXXXXXXXXXX
+
+XXXXXXXXXXXX
+X..........X
+X..0H......X
+X..........X
+XXXXXXXXXXXX
+
+--------------------------------------
+Description
+DylanLose Statement
+Our Hero Dylan gained 3 stress from their loss at Name
+XXXXXXXXXXXX
+X..........X
+X..H.......X
+X..........X
+XXXXXXXXXXXX
+
+--------------------------------------
