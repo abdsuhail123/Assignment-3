@@ -17,7 +17,8 @@ public class EquipableItem extends Item{
         skillType = newType; // Setting skill type as parameter
         boostPoints = newBoost; // Setting boost points as parameter
     }
-
+    
+    @Override
     public String toString() // overrides toString in Item
     {
         return name + " " + "[" + skillType + " " + "+" + boostPoints + "]";

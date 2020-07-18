@@ -16,7 +16,7 @@ public class ItemList{
         items = new ArrayList<Item>();
         currentIndex = 0;
     }
-    
+
     // Count no. of items added
     public int itemCount(){
         return currentIndex;
@@ -28,9 +28,23 @@ public class ItemList{
         if(DEBUG_MODE)
             System.out.println("DEBUG ItemList: Adding new item " + newItem.toString() + " to the item list at index " + currentIndex);
 
-        items.add(newItem);
-        currentIndex ++; // add to array then update
-
+            // If item is stackable item, check if it already exists
+            // If it exists in List, add values instead of adding new object
+            // Else If existing item does not have enough space, add it as new object
+        if(newItem instanceof StackableItem){
+            if(items.contains(newItem)){
+                int index = items.indexOf(newItem);
+                StackableItem i = (StackableItem) items.get(index);
+                StackableItem j = (StackableItem) newItem;
+                if(j.getCount() <= i.remainingSpace()){
+                    i.setItems(j.getCount());
+                }
+            }
+            else{
+            items.add(newItem);
+            currentIndex ++; // add to array then update
+            }
+        }
     }
 
     // Print the whole item list as a String
@@ -68,7 +82,7 @@ public class ItemList{
 
         return returnValue;
     }
-    
+
     // findItem() method finds specified item in the ArrayList
     public Item findItem(Item toFind){
         int index = items.indexOf(toFind); // Searching for index of item
@@ -79,11 +93,10 @@ public class ItemList{
             return null; // Return Null if item not found
         }
     }
-    
-    
+
     // removeItem() method removes specified item from ArrayList if found
     public Item removeItem(Item toRemove){ // 
-    int index = items.indexOf(toRemove); // Searching for index of item
+        int index = items.indexOf(toRemove); // Searching for index of item
         if(index != -1){ // Making sure item found (indexOf didn't return -1)
             items.remove(toRemove); // Removing item from ArrayList
             return toRemove; // Returning Removed Item

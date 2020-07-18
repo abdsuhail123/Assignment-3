@@ -27,25 +27,30 @@ public class StackableItem extends Item {
     }
 
     //toString method
+    @Override
     public String toString() // overrides toString in Item
     {
         return name + " " + "[" + currentItems + "/" + maxItems + "]";
     }
-    
+
     // Accessor method for current item number
     public int getCount(){
         return currentItems;
     }
-    
+
     // Accessor method for max item number
     public int getMaxCount(){
         return maxItems;
     }
-    
+
     // remainingSpace() method calculates number of items that can be added
     public int remainingSpace(){
         int remaining = maxItems - currentItems;
         return remaining;
+    }
+
+    public void setItems(int num){
+        currentItems += num ;
     }
 
     // Add number of current items
