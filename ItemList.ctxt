@@ -14,4 +14,6 @@ comment6.params=toFind
 comment6.target=Item\ findItem(Item)
 comment7.params=toRemove
 comment7.target=Item\ removeItem(Item)
-numComments=8
+comment8.params=
+comment8.target=java.util.ArrayList\ getEquipableItem()
+numComments=9

@@ -28,9 +28,9 @@ public class ItemList{
         if(DEBUG_MODE)
             System.out.println("DEBUG ItemList: Adding new item " + newItem.toString() + " to the item list at index " + currentIndex);
 
-            // If item is stackable item, check if it already exists
-            // If it exists in List, add values instead of adding new object
-            // Else If existing item does not have enough space, add it as new object
+        // If item is stackable item, check if it already exists
+        // If it exists in List, add values instead of adding new object
+        // Else If existing item does not have enough space, add it as new object
         if(newItem instanceof StackableItem){
             if(items.contains(newItem)){
                 int index = items.indexOf(newItem);
@@ -41,8 +41,8 @@ public class ItemList{
                 }
             }
             else{
-            items.add(newItem);
-            currentIndex ++; // add to array then update
+                items.add(newItem);
+                currentIndex ++; // add to array then update
             }
         }
     }
@@ -104,5 +104,18 @@ public class ItemList{
         else{
             return null; // If item not found, return Null
         }
+    }
+
+    // This method will return all equipable items in our ArrayList
+    public ArrayList<EquipableItem> getEquipableItem(){
+        ArrayList<EquipableItem> list = new ArrayList<EquipableItem>();
+        for(int i = 0; i < items.size() ; i++){
+            // If item at index i is Equipable, add to new arraylist
+            if(items.get(i) instanceof EquipableItem){
+                EquipableItem newItem = (EquipableItem) items.get(i) ;
+                list.add(newItem);
+            }
+        }
+        return list; // Return list consisting only of Equipable Items
     }
 }

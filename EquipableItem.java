@@ -23,4 +23,16 @@ public class EquipableItem extends Item{
     {
         return name + " " + "[" + skillType + " " + "+" + boostPoints + "]";
     }
+    
+    public String getSkill(){
+    return skillType;
+    }
+    
+    public int getBoost(){
+    return boostPoints;
+    }
+    
+    public void setPoints(int point){
+        boostPoints += point ;
+    }
 }
